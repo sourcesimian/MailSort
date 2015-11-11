@@ -3,7 +3,7 @@ IMAP mailbox sorting framework written in Python
 
 ## Install
 
-    pip install https://github.com/sourcesimian/MailSort/tarball/v0.1.1#egg=mailsort-0.1.1 --process-dependency-links
+    pip install https://github.com/sourcesimian/MailSort/tarball/v0.1.2#egg=mailsort-0.1.2 --process-dependency-links
 
 ## Setup
 

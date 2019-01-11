@@ -1,0 +1,5 @@
+virtualenv/
+MediaManager.egg-info/
+.git/
+makefile
+build/

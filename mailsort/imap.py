@@ -63,6 +63,8 @@ class Message(object):
         self.__cache = {}
 
         data = ImapResult(self.__imap.uid('fetch', self.__uid, '(BODY.PEEK[HEADER])'))
+        if data is None:
+            raise ValueError('Message with UID %s not available' % self.__uid)
         raw_headers = data[0][1]
 
         self.__header_size = len(raw_headers)
